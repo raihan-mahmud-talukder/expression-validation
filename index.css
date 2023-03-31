@@ -1,0 +1,39 @@
+body {
+    font-family: exo;
+    text-transform: uppercase;
+}
+
+header {
+    padding: 2rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+main {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    padding: 2rem;
+    justify-content: space-around;
+}
+
+section {
+    border: 3px solid black;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center;
+    cursor: pointer;
+}
+
+section:hover {
+    background: lightgray;
+}
