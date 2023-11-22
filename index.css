@@ -1,5 +1,6 @@
 body {
-    font-family: exo;
+    font-family: 'exo 2';
+    text-align: center;
 }
 
 header {
@@ -20,7 +21,7 @@ h3 {
 main {
     display: flex;
     width: 80%;
-    margin: auto;
+    margin: 2rem auto;
     padding: 2rem;
     flex-wrap: wrap;
     text-transform: uppercase;
@@ -37,6 +38,23 @@ section {
 }
 
 section:hover {
+    background: lightgray;
+}
+
+button {
+    width: 15rem;
+    margin: 2rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-family: inherit;
+    font-weight: bolder;
+    text-transform: uppercase;
+    border: 3px solid black;
+    cursor: pointer;
+    background: white;
+}
+
+button:hover {
     background: lightgray;
 }
 
